@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'lame'
-  s.version          = '1.0.0'
+  s.version          = '10.0.0'
   s.summary          = 'Lame 3.100'
 
   s.description      = <<-DESC
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pro100andrey/lame'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andrey Ivanov' => 'this.andrey@gmail.com' }
-  s.source           = { :git => 'https://github.com/pro100andrey/lame.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yuyedaidao/lame.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'lame.framework'
 
 end
