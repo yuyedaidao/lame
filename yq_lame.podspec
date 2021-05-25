@@ -7,13 +7,11 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'lame'
+  s.name             = 'yq_lame'
   s.version          = '10.0.0'
-  s.summary          = 'Lame 3.100'
+  s.summary          = 'lame 3.100 forked from pro100drey'
 
-  s.description      = <<-DESC
-  LAME is a high quality MPEG Audio Layer III (MP3) encoder licensed under the LGPL.
-                       DESC
+  s.description      = 'swifty lame 3.100 forked from pro100drey'
 
   s.homepage         = 'https://github.com/pro100andrey/lame'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
